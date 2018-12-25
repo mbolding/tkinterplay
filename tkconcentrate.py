@@ -1,3 +1,4 @@
+#!/Users/markbolding/anaconda3/bin/python
 # for python 3.x use 'tkinter' rather than 'Tkinter'
 import tkinter as tk
 import time
