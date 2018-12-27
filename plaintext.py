@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# bulletPointAdder.py - Adds Wikipedia bullet points to the start
+# plaintext.py - removes formatting and converts to plaintext
 # of each line of text on the clipboard.
 
 import pyperclip
