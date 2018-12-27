@@ -1,3 +1,3 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 import webbrowser
 webbrowser.open('http://inventwithpython.com')

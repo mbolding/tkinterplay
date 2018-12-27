@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 # bulletPointAdder.py - Adds Wikipedia bullet points to the start
 # of each line of text on the clipboard.
 

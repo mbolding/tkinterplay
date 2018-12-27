@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 # quickWeather.py - Prints the weather for a location from the command line.
 
 import json, requests, sys

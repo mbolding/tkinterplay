@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 from tkinter import *
 
 # creating basic window
