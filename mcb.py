@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 # mcb.pyw - Saves and loads pieces of text to the clipboard.
 # Usage: mcb.py save <keyword> - Saves clipboard to keyword.
 #        mcb.py <keyword> - Loads keyword to clipboard.

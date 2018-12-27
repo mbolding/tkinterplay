@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 # lucky.py - Opens several Google search results.
 
 import requests, sys, webbrowser, bs4

@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 # countdown.py - A simple countdown script.
 
 import time, subprocess, sys

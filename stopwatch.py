@@ -1,4 +1,4 @@
-#!/Users/markbolding/anaconda3/bin/python
+#!/usr/bin/env python
 # stopwatch.py - A simple stopwatch program.
 
 import time
