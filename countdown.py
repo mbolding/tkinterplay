@@ -17,7 +17,7 @@ while timeLeft > 0:
 # At the end of the countdown, play a sound file.
 # subprocess.Popen(['open', 'alert.wav'])
 
-import subprocess # 
+import subprocess 
 audio_file = "alert.wav"
 for i in range(3):
     return_code = subprocess.call(["afplay", audio_file])
