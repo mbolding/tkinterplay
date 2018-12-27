@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # quickWeather.py - Prints the weather for a location from the command line.
+# this is a pain in the ass just to check the weather
 
 import json, requests, sys
 
