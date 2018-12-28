@@ -19,3 +19,7 @@ Vnc headaches:
     mutter &
 
 mutter is gnome 3 WM ?, why isn't the WM starting from xstartup?
+
+Exercises and problems for learning python:
+-----
+* https://projecteuler.net/archives

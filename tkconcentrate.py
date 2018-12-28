@@ -4,8 +4,7 @@ import tkinter as tk
 import time
 
 
-
-class App():
+class App:
     def __init__(self):
         self.start_time = time.time()
         self.root = tk.Tk()
@@ -20,4 +19,5 @@ class App():
         self.label.configure(text=now)
         self.root.after(1000, self.update_clock)
 
-app=App()
+
+app = App()

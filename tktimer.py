@@ -3,7 +3,8 @@
 import tkinter as tk
 import time
 
-class App():
+
+class App:
     def __init__(self):
         self.root = tk.Tk()
         self.label = tk.Label(text="")
@@ -16,4 +17,5 @@ class App():
         self.label.configure(text=now)
         self.root.after(1000, self.update_clock)
 
-app=App()
+
+app = App()

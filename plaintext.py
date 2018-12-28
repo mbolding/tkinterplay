@@ -3,6 +3,7 @@
 # of each line of text on the clipboard.
 
 import pyperclip
+
 text = pyperclip.paste()
 
 pyperclip.copy(text)

@@ -4,7 +4,7 @@
 from time import localtime
 from turtle import *  # avoid wildcard imports like this
 
-ATTRIBUTES = ['tm_hour', 'tm_min', 'tm_sec']
+HANDS = ['tm_hour', 'tm_min', 'tm_sec']
 
 def tick():
     record = localtime()
@@ -18,7 +18,7 @@ def tick():
 mode("logo")  # make 0 degrees be straight up the page
 
 hands = {}
-for size, attr in enumerate(ATTRIBUTES, start=1): # build hands
+for size, attr in enumerate(HANDS, start=1): # build hands
     hands[attr] = Turtle('triangle')
     hands[attr].shapesize(1 / size, size * 5) # width, length
 
