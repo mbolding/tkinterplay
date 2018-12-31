@@ -24,10 +24,6 @@ s = """\
 """
 
 
-from functools import reduce
-import operator
-
-
 def product(seqstr):
     p = 1
     for i in seqstr:
@@ -53,3 +49,5 @@ def maxprod(s, n):
 maxprod(s, 4)
 
 maxprod(s, 13)
+
+("5576689664895", 23514624000)
