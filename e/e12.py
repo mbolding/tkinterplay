@@ -81,15 +81,15 @@ while True:
         break
     x += 1
 
-# %%
+# %% fastest, easiest
 import sympy as sp
 
-num_div = 0
-tri_num = 0
-i = 0
-while num_div <= 5:
-    i += 1
-    tri_num += i
+num_div = 0  # number of divisors
+tri_num = 0  # current triangular number
+i = 0  # increment to next triangular number
+while num_div <= 500:  # until we get above 500 divisors
+    i += 1  # increase increment
+    tri_num += i  # new triangular number
     num_div = sp.divisor_count(tri_num)
 
-print(tri_num)
+print(tri_num)  # the result
