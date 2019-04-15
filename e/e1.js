@@ -16,3 +16,5 @@ multiplesOf3and5(10);
 multiplesOf3and5(1000);
 multiplesOf3and5(49);
 multiplesOf3and5(19564);
+
+multiplesOf3and5(56);
