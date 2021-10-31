@@ -11,7 +11,7 @@ Created on Sun Oct 31 10:53:24 2021
 #%%
 def hello():
     """Print "Hello World" and return None."""
-    print("Hello World!")
+    print("Hello World")
 #%%
 # Main program starts here
 hello()
